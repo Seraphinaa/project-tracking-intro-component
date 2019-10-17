@@ -1,39 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Project tracking intro component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Project tracking intro component</title>
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Product
-  Features
-  Pricing
-  Login
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="logo"><img src="/images/logo.svg" alt="" /></div>
+        <div style="margin-top: 10rem;">
+          <p>
+            <span
+              style="background-color: black;color:white;border-radius:30%;padding:0.19rem;margin-right:10px;"
+              >New </span
+            >Monograph Dashboard
+          </p>
+        </div>
 
-  New
-  Monograph Dashboard
+        <p style="font-weight: 700; font-size: 4rem;margin:0;">
+          Powerful insights into your team
+        </p>
+        <p>Project planning and time tracking for agile teams</p>
+        <div style="margin-top: 40px;">
+          <span
+            style="background-color:hsl(0, 100%, 68%) ;color:white;padding:10px;border-radius: 5px;"
+            >Schedule a demo</span
+          >
+          to see a live preview
+        </div>
+      </div>
+      <div class="right">
+        <div class="navbar">
+          <span>Product</span>
+          <span>Features</span>
+          <span>Pricing</span>
+          <span style="color:hsl(231, 7%, 65%)">Login</span>
+        </div>
+        <div class="devices"></div>
+      </div>
+    </div>
 
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
-
-  Schedule a demo
-  to see a live preview
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
 </html>

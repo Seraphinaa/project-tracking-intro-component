@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+.right {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.devices {
+  padding-top: 20px;
+  background-image: url(images/illustration-devices.svg);
+  background-repeat: no-repeat;
+  background-position-y: 100px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 1px;
+}
+.left {
+  background: white;
+  padding: 2rem;
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  font-size: 18px;
+  font-family: "Barlow Condensed";
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: hsl(207, 33%, 95%);
+  height: 50%;
+  border-bottom-left-radius: 15%;
+  text-align: center;
+  padding-top: 10%;
+  font-weight: bold;
+}
+.navbar > span {
+  margin: 0 10px;
+}
